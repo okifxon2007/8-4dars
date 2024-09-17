@@ -1,0 +1,26 @@
+.leftmain button{
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: silver;
+}
+.leftmain{
+    display: flex;
+    
+}
+.lm-top{
+    margin-top: 20px;
+}
+.leftmain h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-left: 25px;
+}
+.leftmain span{
+    color: silver;
+    transform: translateX(20px);
+}
