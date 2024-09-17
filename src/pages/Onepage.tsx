@@ -3,7 +3,7 @@ import Header from '../components/header/Header';
 import Main from '../components/main/Main';
 import '../pages/index.css';
 import { useNavigate } from 'react-router-dom';
-
+import Masala from '../masalalar/masala';
 const Onepage = () => {
   const navigate = useNavigate();
   const addressRef = useRef<HTMLInputElement>(null);
@@ -47,6 +47,7 @@ const Onepage = () => {
   return (
     <div>
       <div className="onepar">
+        <Masala></Masala>
         <Header />
       </div>
       <div className="display conta">
